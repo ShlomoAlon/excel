@@ -160,6 +160,7 @@ fun App() {
             }, modifier = Modifier.fillMaxWidth().weight(1f)) {
                 Text(file_path2)
             }
+            var why = ""
             var button_text by remember { mutableStateOf("run the template filler") }
             Button(
                 onClick = {
